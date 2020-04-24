@@ -97,6 +97,7 @@ hr {
   display: inline-block;
   cursor: pointer;
   text-align: center;
+  margin:50px auto;
 }
 
 .btn:hover {
