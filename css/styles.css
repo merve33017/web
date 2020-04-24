@@ -1,47 +1,127 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
 
-  body{
-    margin:0;
-    text-align: center;
-    font-family: 'Merriweather', serif;
-  }
-  h1 {
-      margin-top: 0;
-      font-family: 'Sacramento', cursive;
-  }
-  h2{
-    font-family: 'Merriweather', serif;
-  }
-  h3 {
-    font-family: 'Merriweather', serif;
-  }
-  .top-container{
-    background-color: #E5E4CC;
-    position: relative;
-    padding-top: 100px;
-    }
-  .middle-container{
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
 
-  }
-  .bottom-container{
+h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 3em;
+  margin: 20px auto;
+  color: #66BFBF;
+}
 
-  }
-  .top-cloud{
-    position: absolute;
-    right:600px;
-    top:50px;
-  }
-  .bottom-cloud{
-    position: absolute;
-    left:600px;
-    bottom:300px;
-  }
-  .foto{
-    border-radius: 50%;
-    width: 10%;
-    height:10%;
-  }
-  .logo{
-    border-radius: 10%;
-    width: 15%;
-    height:15%;
-  }
+h3 {
+  color: #11999E;
+  font-family: 'Merriweather', serif;
+  margin: 30px auto;
+}
+
+hr {
+  border-style: none;
+  width: 5%;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 10px;
+  margin: 4em auto;
+}
+
+.top-container {
+  background-color: #d7fffd;
+  position: relative;
+  padding-top: 130px;
+  font-size: 3em;
+}
+
+.middle-container {
+  position: relative;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px;
+}
+
+.footer-link {
+  color: #11999E;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 600px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 600px;
+  bottom: 300px;
+}
+
+.foto {
+  border-radius: 50%;
+  width: 15%;
+}
+
+.logo1 {
+  border-radius: 10%;
+  width: 18%;
+  float: left;
+  padding: 30px;
+}
+
+.logo2 {
+  border-radius: 10%;
+  width: 18%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 20px;
+  background-color: #66BFBF;
+  box-shadow: 1px 1px 20px 0px #000000;
+  text-shadow: 1px 1px 20px #000000;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #73E3E3;
+  border: solid #73E3E3 1px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.program {
+  color: #66BFBF;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.website-description {
+  color: #EAF6F6;
+}
+
+.footer-link {
+  color: #11999E;
+  padding: 30px;
+}
